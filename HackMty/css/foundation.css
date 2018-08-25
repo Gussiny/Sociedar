@@ -2297,6 +2297,8 @@ a {
   a:hover, a:focus {
     color: #1468a0; }
   a img {
+	width:300px;
+	height: auto;
     border: 0; }
 
 hr {
