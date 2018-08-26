@@ -454,8 +454,7 @@ body {
 img {
   display: inline-block;
   vertical-align: middle;
-  max-width: 100%;
-  height: auto;
+  
   -ms-interpolation-mode: bicubic; }
 
 textarea {
@@ -2298,10 +2297,6 @@ a {
     color: #2EAC00; }
   a img {
     border: 0; }
-.round{
-	with: 200px;
-	height: auto;
-}
 
 
 hr {
