@@ -59,7 +59,10 @@
                         </div>
                           <div class="grid-x">
                             <fieldset class="large-6 cell">
-                              <button class="success button" type="submit" value="Submit" data-close aria-label="Close reveal">Enviar</button>
+                              <button class="success button" data-close aria-label="Close reveal"  onClick="succesAlert()" value="Reset" type="reset">Enviar</button>
+                                <script>function succesAlert(){
+                                    alert("Se validará el fromulario y se actualizará la base de datos dentro de las próximas 24 horas.");
+                                }</script>
                             </fieldset>
                             <fieldset class="large-6 cell">
                               <button class="success button" type="reset" value="Reset">Limpiar</button>
