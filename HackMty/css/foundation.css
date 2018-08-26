@@ -2297,9 +2297,12 @@ a {
   a:hover, a:focus {
     color: #1468a0; }
   a img {
-	width:300px;
-	height: auto;
     border: 0; }
+.round{
+	with: 200px;
+	height: auto;
+}
+
 
 hr {
   clear: both;
