@@ -2518,7 +2518,8 @@ ul.no-bullet, ol.no-bullet {
     display: block;
     width: 100%;
     margin-right: 0;
-    margin-left: 0; }
+    margin-left: 0;
+    background-color: #2EAC66}
   .button.primary {
     background-color: #1779ba;
     color: #fefefe; }

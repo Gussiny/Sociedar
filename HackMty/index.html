@@ -22,12 +22,15 @@
                 <ul class="menu" data-dropdown-menu>
                         
                         <li><a href="index.html"><font color="#2EAC66" >Página Principal</font></a></li>
-                           <li><a href="#anchor"><font color="#2EAC66" >Categorías</font></a></li>
+                        <li><a href="index.html#anchor"><font color="#2EAC66" >Categorías</font></a></li>
+                        <li><a href="profile.html"><font color="#2EAC66" >Mi Perfil</font></a></li>
                         </ul>
                       </div>
                 <div class="top-bar-right">
                     <ul class="menu">
-                        <li><button class="success button" data-open="exampleModal1">Agregar mi proyecto</button>
+                        <li><button class="success button" onclick="location.href='login.html';">Entrar</button></li>
+                        <li><button class="success button" onclick="location.href='register.html';">Registrarse</button></li>
+                        <li><button class="success button" data-open="exampleModal1">Agregar un proyecto</button>
                         <div class="reveal" id="exampleModal1" data-reveal style="font-family: Bebas">
                             
                           <h2></h2>
@@ -43,6 +46,11 @@
                             <div class="small-12 columns">
                               <label>Descripción del proyecto
                                 <input type="text"  aria-describedby="exampleHelpText">
+                              </label>
+                            </div>
+                                <div class="small-12 columns">
+                              <label>Link del proyecto
+                                <input type="text" placeholder="proyecto.com" aria-describedby="exampleHelpText">
                               </label>
                             </div>
                           </div>
@@ -135,6 +143,7 @@
 		  </a></p></center> 
         </div>
     </div></center>
+              
           </div>
           <div class="cell small-6" style="font-family: Bebas">
               <center><h2>En qué ayudar</h2></center>
